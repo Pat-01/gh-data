@@ -40,7 +40,7 @@ jobs:
       - name: Downloading something
         uses: actions/download-artifact@v8
         with:
-          - name: dist-files
+          name: dist-files
       - name: Output contents
         run: echo "ls"
       - name: Deploy
